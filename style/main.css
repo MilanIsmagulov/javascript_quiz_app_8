@@ -81,7 +81,8 @@ body{
 
 .questions h2{
 	font-size: 30px;
-	padding: 25px;
+	padding: 0px;
+	margin-left: 25px;
 	font-weight: 700;
 	color: rgb(255, 114, 118);
 }

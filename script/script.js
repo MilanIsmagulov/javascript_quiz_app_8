@@ -20,6 +20,13 @@ let rowArr = []
 
 let data = {}
 
+let numberOfQuestion = 2;
+let questionNumberPlace = document.querySelector('#question_number_span');
+let questionNumberPlaceDiscription = document.querySelector('#question_number_strong');
+
+questionNumberPlace.innerHTML = numberOfQuestion + '. ';
+questionNumberPlaceDiscription.innerHTML = '<strong>' + numberOfQuestion + '/10' + '</strong>'
+
 init2()
 
 function init2() {
